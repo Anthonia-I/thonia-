@@ -1,0 +1,36 @@
+div{
+  font-family: Arial;
+}
+.header{
+  background-color: rgb(120, 82, 178);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.home-link{
+  font-weight: bold;
+}
+.textbox{
+  width: 500px;
+  border: none;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  height: 30px;
+  border-radius: 15px;
+  padding-left: 20px;
+}
+.button{
+  margin-top: 30px;
+  height: 70px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
